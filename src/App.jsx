@@ -36,7 +36,7 @@ function App() {
         <header>
           <Loading />
           <div className="top-bar">
-            <h1>Dicoding Forum App</h1>
+            <h1>Dicoding Forum Apps</h1>
           </div>
         </header>
         <main>
@@ -54,7 +54,7 @@ function App() {
       <header>
         <Loading />
         <div className="top-bar">
-          <h1>Dicoding Forum App</h1>
+          <h1>Dicoding Forum Apps</h1>
         </div>
       </header>
       <main>
