@@ -7,6 +7,7 @@ import {
   PiThumbsUpFill,
 } from 'react-icons/pi';
 import PropTypes from 'prop-types';
+import parse from 'html-react-parser';
 import { commentShape } from './ThreadDetail';
 
 function ThreadDetailCommentItem({
@@ -51,7 +52,7 @@ function ThreadDetailCommentItem({
         </div>
         <p className="posted-at">{postedAt(createdAt)}</p>
       </header>
-      <p>{content}</p>
+      <p>{parse(content)}</p>
       <footer>
         <button
           type="button"
